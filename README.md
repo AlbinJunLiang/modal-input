@@ -1,3 +1,13 @@
+## Modal and Input 
+
+Modal para mostrar mensajes:
+
+![Descripción de la imagen](https://github.com/AlbinJunLiang/modal-input/blob/main/img-tutorial/result%20modal.png?raw=true)
+
+Modal para mostrar ingresar datos:
+
+![Descripción de la imagen](https://github.com/AlbinJunLiang/modal-input/blob/main/img-tutorial/showM.png?raw=true)
+
 ## Features - Características
 
 - Funciona para navegadores como Chrome y Edge.
@@ -13,7 +23,8 @@
 **1**-Para agregar el archivo de estilos al HTML con el que estás trabajando, incluye la siguiente línea en la sección `<head>` del documento:
 
 ```html
-<link rel="stylesheet" href="styles/modalStyles.css" />```
+<link rel="stylesheet" href="styles/modalStyles.css" />
+```
 
 **2**- Agregar el archivo modalMesage.js al final del body:
 ```html
@@ -21,14 +32,18 @@
 ```
 **3**-Crear un contenedor para el modal (Se recomienda un DIV).
 ```html
-<div id="modalContainer"></div>```
+<div id="modalContainer"></div>
+```
+
 **4**-Usando el DOM inserte el codigo HTML al div, es necesario poner en el primer parametro el ID con el que se va identificar el Modal:
+
 ```html
 let div = document.getElementById("modalContainer");
 
 div.innerHTML = createModalInput("1", "Pruebas", "Seleccione una opcion: " +
     "<br><br>1-Opcion 1<br>2-Opcion 2<br>3-Opcion 3");
-div.innerHTML += createModal("2", "Resultado:", "");```
+div.innerHTML += createModal("2", "Resultado:", "");
+```
 
 **5**-El modal viene acompañado con algunas funciones por si quiere ajustar la posición, los margenes, el alto y ancho de la ventana. El primer argumento de los siguiente métodos es el ID del DIV a modificar.
 
@@ -63,9 +78,7 @@ cancelBtn.addEventListener('click', function () {
 ```
 
 
-
-
-###Recomendaciones:
+### Recomendaciones:
 - Se puese cerrar los modal con el boton **x** de la esquina superior derecha:
 - Revisar el código implementado del repositorio para dar mas detalles.
 - El método getInputText() es para obtener el texto de un modal con textarea y el setText(ID) es para agregar texto a un modal de tipo mostrar.
