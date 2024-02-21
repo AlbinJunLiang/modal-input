@@ -1,12 +1,5 @@
 ## Modal and Input 
-
 Modal para mostrar mensajes:
-
-![Descripción de la imagen](https://github.com/AlbinJunLiang/modal-input/blob/main/img-tutorial/result%20modal.png?raw=true)
-
-Modal para mostrar ingresar datos:
-
-![Descripción de la imagen](https://github.com/AlbinJunLiang/modal-input/blob/main/img-tutorial/showM.png?raw=true)
 
 ## Features - Características
 
@@ -84,6 +77,13 @@ cancelBtn.addEventListener('click', function () {
 - El método getInputText() es para obtener el texto de un modal con textarea y el setText(ID) es para agregar texto a un modal de tipo mostrar.
 - Preferiblemete mejorar el diseño con CSS y etc.
 
+### Imágenes
+
+![Descripción de la imagen](https://github.com/AlbinJunLiang/modal-input/blob/main/img-tutorial/result%20modal.png?raw=true)
+
+Modal para mostrar ingresar datos:
+
+![Descripción de la imagen](https://github.com/AlbinJunLiang/modal-input/blob/main/img-tutorial/showM.png?raw=true)
 
 
 
